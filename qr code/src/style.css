@@ -1,0 +1,66 @@
+body{   
+        background-color: #D5E1EF;
+
+}
+#alinhamento{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+#divMain{
+    height: 497px;
+    width: 320px;
+    background-color: white;
+    border-radius: 5%;
+    margin: auto;
+
+}
+#divImg > img{
+    margin-top: 20px;
+    height: 288px;
+    width: 288px;
+    border-radius: 5px;
+   
+
+}
+#divImg {
+    display: flex;
+    justify-content: center;
+    
+
+}
+#txt01{
+    text-align: center;
+    font-size: 22px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #1F314F;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    text-shadow: 1px -1px 50px #1F314F;
+
+}
+#txt02{
+    text-align: center;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #7D889E;
+}
+.divTxt{
+    width: 320px;
+    margin: auto;
+
+}
+footer{
+    bottom: 0;
+    position: fixed;
+    width: 100vw;
+    height: auto;
+    text-align: center;
+    background-color: #c2c9d7;
+}
